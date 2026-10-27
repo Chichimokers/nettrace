@@ -11,6 +11,19 @@
 *.sqlite-wal
 *.sqlite-shm
 
+# Local captures, certificates and credentials.
+*.dmp
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.crt
+*.pfx
+*.p12
+*.bkp
+/config.local*.json
+/captures/
+
 # Logs and ad-hoc test output
 *.log
 /ps-out.txt

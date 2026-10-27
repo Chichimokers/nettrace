@@ -1,0 +1,26 @@
+# Build output
+/nettrace.exe
+/nettrace-debug.exe
+*.exe
+
+# Local databases and SQLite WAL files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Logs and ad-hoc test output
+*.log
+/ps-out.txt
+/filter.txt
+/live-test/
+/etw-test/
+/export-test/
+/out/
+
+# Go tooling
+/dist/
+/coverage.out
+*.test
